@@ -9,7 +9,7 @@ function NextJSIcon(props: React.SVGProps<SVGSVGElement>) {
             {...props}
         >
             <g
-                clip-path="url(#clip0_556_2)"
+                clipPath="url(#clip0_556_2)"
             >
                 <mask
                     id="mask0_556_2"
