@@ -431,4 +431,158 @@ export const projects: IProject[] = [
       redirectUrl: "/home",
     },
   },
+  {
+    title: "AstraLabs",
+    slug: "astralabs",
+    desc: "Astralabs is a website that lets users easily explore activity on the Astralabs blockchain. It provides a clear, user-friendly way to see what’s happening on the network, view important information, and understand how the blockchain is being used.",
+    websiteUrl: "https://astralabschain.com/",
+    techStack: [
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkc3TVp1U4WNCHKXqy5xEZAVTnvFiakJbjMYIr",
+        name: "Next.Js",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkSulrV0K2ytuBhidLkcJZ1SPFrwRNlqDA75gm",
+        name: "Typescript",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkUqqqhUOHxt4NO1MwHpSg6VfhQqP5rAvLoeKc",
+        name: "Tailwind CSS",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkcVqI5osU4WNCHKXqy5xEZAVTnvFiakJbjMYI",
+        name: "Shadcn/ui",
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkB9uofdjP7TxpLZqdN3CtAPr8Es9e6kRIcDK1",
+        name: "GSAP",
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkiPnOZoGPiCJF16cAl02VzqRNMmjSZoyTWOkp",
+        name: "Figma",
+      },
+    ],
+    images: [
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkoDlHbOIqhcsVwiRr5Tn1OImyDkpCgJjxv7Yl",
+        alt: "Astralabs 1",
+        position: 1,
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkAFGhJstk93DzBjO5vAWUcahHyVKJfNnplws6",
+        alt: "Astralabs 2",
+        position: 2,
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkOWJTBcLWwuhtaYM75xQIjelmsA3HdXNoBriV",
+        alt: "Astralabs 3",
+        position: 3,
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkanQfPIN2JVkZy0hnrB81NCdLlHsfz5TiDQeR",
+        alt: "Astralabs 4",
+        position: 4,
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVk3m7Oj2BHCqtWJ7gLF4QT6O0KE5AndiePYumc",
+        alt: "Astralabs 5",
+        position: 5,
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkCgAizhED6EciqV5Gys80TjzHNr2I14dvg9Lx",
+        alt: "Astralabs 6",
+        position: 6,
+      },
+    ],
+    nextProject: {
+      title: "MII",
+      redirectUrl: "/project/mii",
+    },
+  },
+  {
+    title: "osMerge",
+    slug: "osmerge",
+    desc: "osMerge is an enterpresi AI used by Japanese companies to chat with an AI assistant. The website provide a user friendly interface to interact witth multiple AI assistants at the same time, accross different departments. osMerge also provide a dashboard to manage all conversations and billing for each AI assistant.",
+    techStack: [
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkc3TVp1U4WNCHKXqy5xEZAVTnvFiakJbjMYIr",
+        name: "Next.Js",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkSulrV0K2ytuBhidLkcJZ1SPFrwRNlqDA75gm",
+        name: "Typescript",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkUqqqhUOHxt4NO1MwHpSg6VfhQqP5rAvLoeKc",
+        name: "Tailwind CSS",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkcVqI5osU4WNCHKXqy5xEZAVTnvFiakJbjMYI",
+        name: "Shadcn/ui",
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVk91zcmiuN68mtKdn4lwJEXZaSo2M1Ce3y0WUH",
+        name: "Supabase",
+      },
+    ],
+    images: [
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVknWjxXZgLhvZHPOQIADtoCu4BFgy3rUaMN5Ez",
+        alt: "osMerge 1",
+        position: 1,
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVk9QD6peuN68mtKdn4lwJEXZaSo2M1Ce3y0WUH",
+        alt: "osMerge 2",
+        position: 2,
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkN5lxsNUpl8k6pHibIGzrYTKd4ZJoWxXgUcQa",
+        alt: "osMerge 3",
+        position: 3,
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkPF0gxWy6EpK8DvIiU4gXwBLaJGzol3Fsn2mV",
+        alt: "osMerge 4",
+        position: 4,
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkIwWO2QifUjL9EhsorVx07JYg8n62kp5OeSXb",
+        alt: "osMerge 5",
+        position: 5,
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkPuNAraOy6EpK8DvIiU4gXwBLaJGzol3Fsn2m",
+        alt: "osMerge 6",
+        position: 6,
+      },
+    ],
+    nextProject: {
+      title: "MII",
+      redirectUrl: "/project/mii",
+    },
+  },
 ];

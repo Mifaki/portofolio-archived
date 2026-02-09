@@ -34,11 +34,11 @@ const HomeMobile = () => {
                 <div>
                     <h1 className="font-libre italic text-[42px] leading-[120%] font-semibold mb-2 xl:mb-4">Ahmad Faiz <br /> Agustianto</h1>
                     <desc className="text-[14px]">
-                        Information Technology student and frontend developer with expertise in modern JavaScript frameworks. Experienced in leading development teams and delivering <strong>high-impact web applications</strong> across multiple successful projects.
+                        Fresh graduate and frontend developer with expertise in modern JavaScript frameworks. Experienced in leading development teams and delivering <strong>high-impact web applications</strong> across multiple successful projects.
                     </desc>
                 </div>
                 <div className="flex w-full justify-end">
-                    <ArrowButton text="Fron-End Developer" />
+                    <ArrowButton text="Front-End Developer" />
                 </div>
             </div>
             <div className="bg-porto-primary col-span-12 row-span-2 rounded-3xl p-6 relative overflow-hidden" >
