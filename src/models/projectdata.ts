@@ -143,8 +143,8 @@ export const projects: IProject[] = [
       },
     ],
     nextProject: {
-      title: "MII",
-      redirectUrl: "/project/mii",
+      title: "Ez-Q Synergia",
+      redirectUrl: "/project/ez-q-synergia",
     },
   },
   {
@@ -218,7 +218,7 @@ export const projects: IProject[] = [
       },
     ],
     nextProject: {
-      title: "nikahyook",
+      title: "Nikahyook",
       redirectUrl: "/project/nikahyook",
     },
   },
@@ -292,8 +292,8 @@ export const projects: IProject[] = [
       },
     ],
     nextProject: {
-      title: "Harverse",
-      redirectUrl: "/project/harverse",
+      title: "AstraLabs",
+      redirectUrl: "/project/astralabs",
     },
   },
   {
@@ -507,8 +507,8 @@ export const projects: IProject[] = [
       },
     ],
     nextProject: {
-      title: "MII",
-      redirectUrl: "/project/mii",
+      title: "osMerge",
+      redirectUrl: "/project/osmerge",
     },
   },
   {
@@ -581,8 +581,8 @@ export const projects: IProject[] = [
       },
     ],
     nextProject: {
-      title: "MII",
-      redirectUrl: "/project/mii",
+      title: "Nogtus",
+      redirectUrl: "/project/nogtus",
     },
   },
   {
@@ -626,8 +626,8 @@ export const projects: IProject[] = [
       },
     ],
     nextProject: {
-      title: "MII",
-      redirectUrl: "/project/mii",
+      title: "Vobis",
+      redirectUrl: "/project/vobis",
     },
   },
   {
@@ -661,8 +661,8 @@ export const projects: IProject[] = [
       },
     ],
     nextProject: {
-      title: "MII",
-      redirectUrl: "/project/mii",
+      title: "Prasena Weatherstation",
+      redirectUrl: "/project/prasena-weatherstation",
     },
   },
   {
@@ -756,8 +756,8 @@ export const projects: IProject[] = [
       },
     ],
     nextProject: {
-      title: "MII",
-      redirectUrl: "/project/mii",
+      title: "Harverse",
+      redirectUrl: "/project/harverse",
     },
   },
 ];
