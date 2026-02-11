@@ -1,12 +1,13 @@
 export interface IProject {
-    title: string;
-    slug: string;
-    desc: string;
-    websiteUrl?: string;
-    videoUrl?: string;
-    images: IProjectImage[];
-    techStack: IProjectTechStack[];
-    nextProject: INextProject
+  title: string;
+  slug: string;
+  desc: string;
+  isPrivate?: boolean;
+  websiteUrl?: string;
+  videoUrl?: string;
+  images: IProjectImage[];
+  techStack: IProjectTechStack[];
+  nextProject: INextProject;
 }
 
 export interface IProjectTechStack {

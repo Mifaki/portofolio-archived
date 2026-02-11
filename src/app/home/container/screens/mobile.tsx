@@ -95,7 +95,7 @@ const HomeMobile = () => {
             />
             <ProjectCard
                 name="Prasena Weatherstation"
-                redirectUrl="/project/prasena"
+                redirectUrl="/project/prasena-weatherstation"
                 image={PrasenaHome}
                 className="col-span-12 row-span-2"
                 imageHeight={90}                

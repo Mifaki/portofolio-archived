@@ -585,4 +585,179 @@ export const projects: IProject[] = [
       redirectUrl: "/project/mii",
     },
   },
+  {
+    title: "Ez-Q Synergia",
+    slug: "ez-q-synergia",
+    isPrivate: true,
+    desc: "Sales management dashboard developed for a national agriculture company, designed to monitor sales data derived from Coretax tax reports and to manage operational data and programs for over 1,500 retailers",
+    techStack: [
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkfXoQ00oRYCH3tc0EIRqzopF69js7uPbZdNWm",
+        name: "React",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkSulrV0K2ytuBhidLkcJZ1SPFrwRNlqDA75gm",
+        name: "Typescript",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkUqqqhUOHxt4NO1MwHpSg6VfhQqP5rAvLoeKc",
+        name: "Tailwind CSS",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkPpxAshy6EpK8DvIiU4gXwBLaJGzol3Fsn2mV",
+        name: "Antd Design",
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkJp0BgtAaMr9bxA2Q0leNWwVtXnZhEH6j8Yfq",
+        name: "Socket.io",
+      },
+    ],
+    images: [
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVk87chjawenShRz1yfQ7ABkNH6lJ3osCaPmWZM",
+        alt: "ezq-synergia 1",
+        position: 1,
+      },
+    ],
+    nextProject: {
+      title: "MII",
+      redirectUrl: "/project/mii",
+    },
+  },
+  {
+    title: "Vobis",
+    slug: "vobis",
+    isPrivate: true,
+    desc: "Accounting management system including cashier system, inventory management, and automated accounting recording.",
+    techStack: [
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkyCi36R9s7lSJDL90bhfomMe5dZI8xyAnk4Yg",
+        name: "Nuxt Js",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkSulrV0K2ytuBhidLkcJZ1SPFrwRNlqDA75gm",
+        name: "Typescript",
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkHo9Rhv0V5TDsFUXVRWuxyNlce1ZpvirnjOhC",
+        name: "Bootstrap",
+      },
+    ],
+    images: [
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkUuQME8Hxt4NO1MwHpSg6VfhQqP5rAvLoeKcJ",
+        alt: "vobis 1",
+        position: 1,
+      },
+    ],
+    nextProject: {
+      title: "MII",
+      redirectUrl: "/project/mii",
+    },
+  },
+  {
+    title: "Prasena Weatherstation",
+    slug: "prasena-weatherstation",
+    isPrivate: true,
+    desc: "Real-time weather station dashboard for monitoring multiple environmental metrics and sensor data, with integrated sensor maintenance and location record management.",
+    techStack: [
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkfXoQ00oRYCH3tc0EIRqzopF69js7uPbZdNWm",
+        name: "React",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkSulrV0K2ytuBhidLkcJZ1SPFrwRNlqDA75gm",
+        name: "Typescript",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkUqqqhUOHxt4NO1MwHpSg6VfhQqP5rAvLoeKc",
+        name: "Tailwind CSS",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkPpxAshy6EpK8DvIiU4gXwBLaJGzol3Fsn2mV",
+        name: "Antd Design",
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkJp0BgtAaMr9bxA2Q0leNWwVtXnZhEH6j8Yfq",
+        name: "Socket.io",
+      },
+    ],
+    images: [
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkF6jdZqiSkGUIPW7nNxEf4CKpZymvFRc0Mq59",
+        alt: "ezq-synergia 1",
+        position: 1,
+      },
+    ],
+    nextProject: {
+      title: "MII",
+      redirectUrl: "/project/mii",
+    },
+  },
+  {
+    title: "Nogtus",
+    slug: "nogtus",
+    isPrivate: true,
+    desc: "Simple dashboard system for integrating OCR for BCA's bank statements, with a user-friendly interface for easy data entry and management.",
+    techStack: [
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkiv2TibEGPiCJF16cAl02VzqRNMmjSZoyTWOk",
+        name: "Vue Js",
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkADenLOtk93DzBjO5vAWUcahHyVKJfNnplws6",
+        name: "Quasar",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkSulrV0K2ytuBhidLkcJZ1SPFrwRNlqDA75gm",
+        name: "Typescript",
+      },
+      {
+        imageUrl:
+          "https://utfs.io/f/a76Xht1N2JVkUqqqhUOHxt4NO1MwHpSg6VfhQqP5rAvLoeKc",
+        name: "Tailwind CSS",
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkZPyrAemTDEmQSv3scqLe7Cobi4RyP9OjfJl5",
+        name: "Express Js",
+      },
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkVnE6FrqqZ6vjFPeMUzo7YH3CXBpn9kiQdWVr",
+        name: "Google Cloud Big Query",
+      },
+    ],
+    images: [
+      {
+        imageUrl:
+          "https://84y8dhtha6.ufs.sh/f/a76Xht1N2JVkD3gJqNnzUQG0pnLJ94rA6kxoq51dZBIiS7CR",
+        alt: "ezq-synergia 1",
+        position: 1,
+      },
+    ],
+    nextProject: {
+      title: "MII",
+      redirectUrl: "/project/mii",
+    },
+  },
 ];

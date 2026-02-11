@@ -2,10 +2,12 @@ import {
     IProcessedImage,
     IProject
 } from "@/models/projectinterfaces"
-import { useSortImage } from "../../usecase/useSortImage"
+
 import ArrowButton from "@/shared/container/arrow-button/ArrowButon"
 import FilledCircle from '@/assets/background-filled-circle.png'
 import Image from "next/image"
+import WarningBg from '@/assets/background-warning.png'
+import { useSortImage } from "../../usecase/useSortImage"
 
 const ProjectMobile = ({ project }: { project: IProject }) => {
 
@@ -79,7 +81,22 @@ const ProjectMobile = ({ project }: { project: IProject }) => {
                     ))}
                 </div>
             </div>
-            {additionalImages.map((image: IProcessedImage) => renderImage(image))}
+            {project.isPrivate ? (
+                <div className="flex flex-col justify-between bg-porto-primary col-span-12 row-span-5 rounded-3xl p-6 relative">
+                    <div className="space-y-2">
+                        <h3 className="font-libre text-[48px] leading-tight font-semibold italic mb-4">Private Project</h3>
+                        <p className="text-justify">
+                            I’m really sorry I can’t share more screenshots or details for this project due to its private nature. I still wanted to include it here because I’m really proud of the work, if we ever get to chat, I’d be happy to walk you through what I can.
+                        </p>
+                    </div>
+                    <Image
+                        src={WarningBg}
+                        alt="Warning Background"
+                        style={{ width: '60%', height: '40%' }}
+                        className="absolute bottom-0 right-0"
+                    />
+                </div>
+            ) : additionalImages.map((image: IProcessedImage) => renderImage(image))}
             <div className="flex flex-col justify-between bg-porto-primary col-span-12 row-span-3 rounded-3xl p-6 relative">
                 <h3 className="font-libre text-[48px] leading-tight font-semibold italic">Want to see other things?</h3>
                 <div className="flex w-full justify-end">

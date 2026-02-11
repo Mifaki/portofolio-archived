@@ -112,7 +112,7 @@ const HomeDesktop = () => {
             />
             <ProjectCard
                 name="Prasena Weatherstation"
-                redirectUrl="/project/prasena"
+                redirectUrl="/project/prasena-weatherstation"
                 image={PrasenaHome}
                 className="col-span-4 row-span-4"
                 imageHeight={90}
